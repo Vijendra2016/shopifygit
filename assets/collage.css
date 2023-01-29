@@ -199,3 +199,6 @@
 .collage .collage-card-spacing img {
   object-fit: contain;
 }
+h2.rich-text__heading.rte.h1 {
+    color: green !important;
+}
