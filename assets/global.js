@@ -946,15 +946,3 @@ class ProductRecommendations extends HTMLElement {
 
 customElements.define('product-recommendations', ProductRecommendations);
 
-const cursorRounded = document.querySelector('.cursor');
-const cursorText = document.querySelector('.custom');
-
-document.addEventListener('mousemove', e => {
-  const mouseX = e.pageX;
-  const mouseY = e.pageY;   
-  
-  cursorRounded.style.top = mouseY + "px"; 
-  cursorRounded.style.left = mouseX + "px";   
-  cursorText.style.top = mouseY + "px"; 
-  cursorText.style.left = mouseX + "px"; 
-})
