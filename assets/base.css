@@ -2998,7 +2998,7 @@ details-disclosure > details {
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #888; 
+  background: #f53946; 
 }
 
 /* Handle on hover */
