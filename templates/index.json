@@ -1,0 +1,69 @@
+{
+  "sections": {
+    "bf57e365-e59f-4d2b-bdf1-fe4ba6674d1a": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16013879410854__bf57e365-e59f-4d2b-bdf1-fe4ba6674d1a-16747967610a473f40-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Canvas is a design and development studio. We build strategy-focused and design-driven digital products and ecommerce experiences that produce outcomes.<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--16013879410854__bf57e365-e59f-4d2b-bdf1-fe4ba6674d1a-16747967610a473f40-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16013879410854__bf57e365-e59f-4d2b-bdf1-fe4ba6674d1a-16747967610a473f40-0",
+        "template--16013879410854__bf57e365-e59f-4d2b-bdf1-fe4ba6674d1a-16747967610a473f40-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "90aa5009-0787-4078-b2c7-2dbcfd5c9c17": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<h2 style=\"    text-align: center;\">A few of our favorites.<\/h2>\n\n<h2 class=\"SectionHeader__Heading SectionHeader__Heading--emphasize Heading u-h1\" size=\"4\">We are Shopify<p class=\"typewrite\" data-period=\"1000\" data-type=\"[&quot;Developers&quot;, &quot;Marketers&quot;, &quot;Designers&quot;]\"><span class=\"wrap\"><\/span><\/p><\/h2>",
+        "color_scheme": "background-2",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "227e8ff8-8299-4d03-8e59-949dc0095c21": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Shopify_training_via_screenshare_1.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    }
+  },
+  "order": [
+    "bf57e365-e59f-4d2b-bdf1-fe4ba6674d1a",
+    "90aa5009-0787-4078-b2c7-2dbcfd5c9c17",
+    "227e8ff8-8299-4d03-8e59-949dc0095c21"
+  ]
+}
