@@ -3005,173 +3005,61 @@ details-disclosure > details {
 ::-webkit-scrollbar-thumb:hover {
   background: #555; 
 }
-#cursor-circle {
-  display: block;
-  width: 30px;
-  height: 30px;
+
+.custom {
+  width: 100px;
   position: absolute;
-  top: -15px;
-  left: -15px;
-  transform-origin: 50% 50%;
-  opacity: 1;
-
-  .cursor-circle {
-    border: 3px solid #fff;
-    border-radius: 15px;
-    display: block;
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    top: 0;
-    left: 0px;
-    transform-origin: 50% 50%;
-    transition: 0.2s border ease-in-out;
-    transition-delay: 0.4s;
-    
-    .cursor-circle-hover-link {
-      border-radius: 15px;
-      display: block;
-      width: 24px;
-      height: 24px;
-      position: absolute;
-      top: 0px;
-      left: 0px;
-      transform: scale3d(1,1,1);
-      transform-origin: 50% 50%;
-      
-      transition: all 0.4s ease-in-out;
-      transition-delay: 0s;
-      
-      &:before {
-        content: '';
-        display: block;
-        background: transparent;
-        opacity: 0.6;
-        position: absolute;
-        border-radius: 15px;
-        top: -3px;
-        left: -3px;
-        width: 30px;
-        height: 30px;
-        transition: 0.4s background ease-in-out;
-        transition-delay: 0.4s;
-      }
-    }
-  }
-
-  &.cursor-hover-active {
-    .cursor-circle {
-      border: 3px solid transparent;
-      transition-delay: 0.2s;
-      
-      .cursor-circle-hover-link {
-        
-        transform: scale3d(4,4,4);
-        transition-delay: 0.4s;
-        
-        &:before {
-          background: #F73859;
-          transition-delay: 0s;
-        }
-      }
-    }
-  }
-}
-
-#cursor-small {
-display: block;
-width: 6px;
-height: 6px;
-border-radius: 3px;
-background-color: #F73859;
-position: absolute;
-top: -3px;
-left: -3px;
-transform-origin: 50% 50%;
-}
-
-.cursor-circle-zoom {
-  display: block;
-  width: 300px;
-  height: 300px;
-  border-radius: 200px;
-  transform-origin: 50% 50%;
-  // transform: translate(-50%, -50%) scale3    
-  transform: translate(-50%, -50%) scale3d(0,0,0);
-  transition: transform 0.5s ease-in-out;
-
-  &:before {
-    content:'';
-    background-color: #F73859;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 200px;
-    opacity: 1;
-    transition: opacity 0.4s ease-in-out;
-    transition-delay: 0s;
-  }
+  /*center to cursor */
+  transform: translate(-50%, -50%);
+  /*transform: translate(-45px, 10px);*/
+  pointer-events: none;
   
-  &.zoom-active {
-    transform: translate(-50%, -50%) scale3d(1,1,1);
-    
-    &:before {
-      opacity: 0;
-      transition-delay: 0.3s;
-    }
+  font-size: 20px;
+  letter-spacing: 3.5px;
+  font-family: sans-serif;
+}
+
+
+.cursor{
+  width: 45px;
+  height: 45px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  position: absolute;
+  /*center to cursor */
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+
+svg {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
+  -webkit-animation: rotating 12s linear infinite;
+  -moz-animation: rotating 12s linear infinite;
+  -ms-animation: rotating 12s linear infinite;
+  -o-animation: rotating 12s linear infinite;
+  animation: rotating 12s linear infinite;
+}
+
+
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+  to {
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotating {
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 
-@keyframes hoverScale {
-0% {
-  background-color: transparent;
-  opacity: 0;
-  transform: scale3d(1,1,1);
-}
 
-40% {
-  background-color: #F73859;
-  opacity: 0.6;
-  transform: scale3d(1,1,1);
-}
-
-50% {
-  background-color: #F73859;
-  opacity: 0.6;
-  transform: scale3d(1,1,1);
-}
-
-100% {
-  background-color: #F73859;
-  opacity: 0.6;
-  transform: scale3d(4,4,4);
-}
-}
-
-@keyframes hoverScaleLeave {
-0% {
-  background-color: #F73859;
-  opacity: 0.6;
-  transform: scale3d(4,4,4);
-}
-
-50% {
-  background-color: #F73859;
-  opacity: 0.6;
-  transform: scale3d(1,1,1);
-}
-
-60% {
-  background-color: #F73859;
-  opacity: 0.6;
-  transform: scale3d(1,1,1);
-}
-
-100% {
-  background-color: transparent;
-  opacity: 0;
-  transform: scale3d(1,1,1);
-}
-}
