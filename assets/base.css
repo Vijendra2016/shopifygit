@@ -3006,3 +3006,7 @@ details-disclosure > details {
   background: rgb(250, 2, 2); 
 }
 
+.header-wrapper--border-bottom {
+  border-bottom: 0.1rem solid rgba(var(--color-foreground),.08);
+  background-color: #f53946 !important;
+}
