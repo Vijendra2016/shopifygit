@@ -945,3 +945,92 @@ class ProductRecommendations extends HTMLElement {
 }
 
 customElements.define('product-recommendations', ProductRecommendations);
+this.mousemove = this.mousemove.bind(this);
+this.animate = this.animate.bind(this);
+
+this.smallCursor = document.getElementById('cursor-small');
+this.circleCursor = document.getElementById('cursor-circle');
+this.circleCursorZoom = document.querySelector('.cursor-circle-zoom');
+
+window.addEventListener('load', function() {
+  let image_magnifier = document.querySelector('.mangnifer-image');
+  this.imageBG = image_magnifier.src;
+  this.imageRect = image_magnifier.getBoundingClientRect();
+  this.linkRect =  document.querySelector('.link-hover').getBoundingClientRect();
+
+  this.imageWidth = this.imageRect.width;  
+  this.imageHeight = this.imageRect.height;
+
+  this.animate();  
+ });
+
+this.mouseX = 0;
+this.mouseY = 0;
+this.Xsmall = 0;
+this.Ysmall = 0;
+this.Xcircle = 0;
+this.Ycircle = 0;
+this.fixHoverX = 0;
+this.fixHoverY = 0;
+
+function mousemove(e){
+    e.preventDefault();
+ 
+    this.mouseX = e.clientX;  
+    this.mouseY = e.clientY;
+}
+
+
+// event mouse mouve
+window.addEventListener("mousemove", mousemove);
+
+
+function animate() {
+  console.log('animate');
+  
+  this.Xsmall += (this.mouseX - this.Xsmall) * 0.6;
+  this.Ysmall += (this.mouseY - this.Ysmall) * 0.6;
+  
+  this.Xcircle += (this.mouseX - this.Xcircle) * 0.2;
+  this.Ycircle += (this.mouseY - this.Ycircle) * 0.2;
+  
+  this.smallCursor.style.transform = "translate3d(" + this.Xsmall + "px ," + this.Ysmall + "px ,0)";
+  this.circleCursor.style.transform = "translate3d(" + this.Xcircle + "px ," + this.Ycircle + "px ,0)";
+  
+  
+  //zoom
+  let xPosition = this.mouseX - this.imageRect.left;
+  let yPosition = this.mouseY - this.imageRect.top;
+
+  let bgPositionX = xPosition * 100 / this.imageWidth;  
+  let bgPositionY = yPosition * 100 / this.imageHeight;
+  
+  // zoom
+  if( this.mouseX > this.imageRect.x && this.mouseX < (this.imageRect.x + this.imageRect.width) && this.mouseY > this.imageRect.y && this.mouseY < (this.imageRect.height +  this.imageRect.y)){
+    
+    this.circleCursorZoom.classList.add('zoom-active');
+    this.circleCursorZoom.style.backgroundImage = "url('" + this.imageBG + "')";  
+    this.circleCursorZoom.style.backgroundPosition = bgPositionX + "% " + bgPositionY + "%";
+  } else {
+    this.circleCursorZoom.classList.remove('zoom-active');
+  }
+  
+  this.fixHoverX += ((this.linkRect.x + (this.linkRect.width / 2)) - this.fixHoverX) * 0.2;
+  this.fixHoverY += ((this.linkRect.y + (this.linkRect.height / 2)) - this.fixHoverY) * 0.2;
+  
+  // cursor fix
+  if( this.mouseX > this.linkRect.x && this.mouseX < (this.linkRect.x + this.linkRect.width) && this.mouseY > this.linkRect.y && this.mouseY < (this.linkRect.height +  this.linkRect.y)){
+    this.circleCursor.classList.add("cursor-hover-active");
+    this.circleCursor.style.transition = "0.4s transform ease-in-out";
+    // this.circleCursor.style.transform = "translate3d(" + (this.linkRect.x + (this.linkRect.width / 2)) + "px ," + (this.linkRect.y + (this.linkRect.height / 2)) + "px ,0)";
+    this.circleCursor.style.transform = "translate3d(" + this.fixHoverX + "px ," + this.fixHoverY + "px ,0)";
+  } else {
+    
+    this.circleCursor.style.transition = "";
+    this.circleCursor.classList.remove("cursor-hover-active");
+  }
+  
+  window.requestAnimationFrame(this.animate);
+  
+  
+}

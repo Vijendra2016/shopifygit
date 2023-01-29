@@ -290,5 +290,16 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
+
+    <div id="cursor">
+  <div id="cursor-circle">
+    <div class="cursor-circle">
+      <div class="cursor-circle-hover-link"></div>
+    </div>
+  </div>
+  <div id="cursor-small">
+    <div class="cursor-circle-zoom"></div>
+  </div>
+</div>
   </body>
 </html>
