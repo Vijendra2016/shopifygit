@@ -2983,7 +2983,9 @@ details-disclosure > details {
 }
 .header__menu-item span {
   transition: text-decoration var(--duration-short) ease;
-  font-size: 30px !important;
+  font-size: 15px !important;
+  margin-right: 20px;
+    margin-left: 20px;
 }
 
 /* width */
