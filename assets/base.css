@@ -2981,3 +2981,7 @@ details-disclosure > details {
     font-size: 76px;
     line-height: 84px;
 }
+.header__menu-item span {
+  transition: text-decoration var(--duration-short) ease;
+  font-size: 30px !important;
+}
