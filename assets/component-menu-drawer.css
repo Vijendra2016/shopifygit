@@ -252,3 +252,13 @@ details[open].menu-opening > .menu-drawer__submenu {
 .menu-drawer .list-social__link {
   padding: 1.3rem 1.25rem;
 }
+.menu-drawer__inner-container {
+  position: relative;
+  height: 100%;
+  background-color: #f53946;
+  color: white;
+}
+.menu-drawer__menu-item--active, .menu-drawer__menu-item:focus, .menu-drawer__close-button:focus, .menu-drawer__menu-item:hover, .menu-drawer__close-button:hover {
+  color: white;
+  background-color: #fffafa00;
+}
