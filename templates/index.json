@@ -1,5 +1,14 @@
 {
   "sections": {
+    "28775354-f60f-4a64-ad0e-8fc24fa44a04": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"frame\">\n\t<div class=\"text\">\n\t\t<span>❤<\/span>\n\t\t<span><\/span>\n\t\t<span>E<\/span>\n\t\t<span>V<\/span>\n\t\t<span>O<\/span>\n\t\t<span>L<\/span>\n\t\t<span><\/span>\n\t\t<span>H<\/span>\n\t\t<span>T<\/span>\n\t\t<span>I<\/span>\n\t\t<span>W<\/span>\n\t\t<span><\/span>\n\t\t<span>E<\/span>\n\t\t<span>D<\/span>\n\t\t<span>A<\/span>\n\t\t<span>M<\/span>\n\t\t<span><\/span>\n\t\t<span>❤<\/span>\n\t\t<span><\/span>\n\t\t<span>E<\/span>\n\t\t<span>V<\/span>\n\t\t<span>O<\/span>\n\t\t<span>L<\/span>\n\t\t<span><\/span>\n\t\t<span>H<\/span>\n\t\t<span>T<\/span>\n\t\t<span>I<\/span>\n\t\t<span>W<\/span>\n\t\t<span><\/span>\n\t\t<span>E<\/span>\n\t\t<span>D<\/span>\n\t\t<span>A<\/span>\n\t\t<span>M<\/span>\n\t\t<span><\/span>\n\t\t<span>❤<\/span>\n\t\t<span><\/span>\n\t\t<span>E<\/span>\n\t\t<span>V<\/span>\n\t\t<span>O<\/span>\n\t\t<span>L<\/span>\n\t\t<span><\/span>\n\t\t<span>H<\/span>\n\t\t<span>T<\/span>\n\t\t<span>I<\/span>\n\t\t<span>W<\/span>\n\t\t<span><\/span>\n\t\t<span>E<\/span>\n\t\t<span>D<\/span>\n\t\t<span>A<\/span>\n\t\t<span>M<\/span>\n\n\t<\/div>\n<\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "bf57e365-e59f-4d2b-bdf1-fe4ba6674d1a": {
       "type": "rich-text",
       "blocks": {
@@ -123,6 +132,7 @@
     }
   },
   "order": [
+    "28775354-f60f-4a64-ad0e-8fc24fa44a04",
     "bf57e365-e59f-4d2b-bdf1-fe4ba6674d1a",
     "90aa5009-0787-4078-b2c7-2dbcfd5c9c17",
     "227e8ff8-8299-4d03-8e59-949dc0095c21",
