@@ -20,8 +20,8 @@
         "template--16015241478310__3b6911ed-834d-4417-afee-81de36094702-1675082486e06a42f5-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "About VJN",
+            "button_link": "shopify:\/\/pages\/about-vjn"
           }
         }
       },
