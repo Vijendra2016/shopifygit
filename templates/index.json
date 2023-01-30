@@ -3,7 +3,7 @@
     "28775354-f60f-4a64-ad0e-8fc24fa44a04": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<h1>\nHello, I’m Vijendra, Offical shopify expert\n,Front-end Developer Based in Udaipur.\n<\/h1>",
+        "custom_liquid": "<div class=\"rich-text__wrapper rich-text__wrapper--center page-width\">\n      <div class=\"rich-text__blocks center\">\n<h1>\nHello, I’m Vijendra, Offical shopify expert\n,Front-end Developer Based in Udaipur.\n<\/h1>\n              <\/div><\/div>\n    <\/div>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
