@@ -3,7 +3,7 @@
     "28775354-f60f-4a64-ad0e-8fc24fa44a04": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"frame\">\n\t<div class=\"text\">\n\t\t<span>❤<\/span>\n\t\t<span><\/span>\n\t\t<span>E<\/span>\n\t\t<span>V<\/span>\n\t\t<span>O<\/span>\n\t\t<span>L<\/span>\n\t\t<span><\/span>\n\t\t<span>H<\/span>\n\t\t<span>T<\/span>\n\t\t<span>I<\/span>\n\t\t<span>W<\/span>\n\t\t<span><\/span>\n\t\t<span>E<\/span>\n\t\t<span>D<\/span>\n\t\t<span>A<\/span>\n\t\t<span>M<\/span>\n\t\t<span><\/span>\n\t\t<span>❤<\/span>\n\t\t<span><\/span>\n\t\t<span>E<\/span>\n\t\t<span>V<\/span>\n\t\t<span>O<\/span>\n\t\t<span>L<\/span>\n\t\t<span><\/span>\n\t\t<span>H<\/span>\n\t\t<span>T<\/span>\n\t\t<span>I<\/span>\n\t\t<span>W<\/span>\n\t\t<span><\/span>\n\t\t<span>E<\/span>\n\t\t<span>D<\/span>\n\t\t<span>A<\/span>\n\t\t<span>M<\/span>\n\t\t<span><\/span>\n\t\t<span>❤<\/span>\n\t\t<span><\/span>\n\t\t<span>E<\/span>\n\t\t<span>V<\/span>\n\t\t<span>O<\/span>\n\t\t<span>L<\/span>\n\t\t<span><\/span>\n\t\t<span>H<\/span>\n\t\t<span>T<\/span>\n\t\t<span>I<\/span>\n\t\t<span>W<\/span>\n\t\t<span><\/span>\n\t\t<span>E<\/span>\n\t\t<span>D<\/span>\n\t\t<span>A<\/span>\n\t\t<span>M<\/span>\n\n\t<\/div>\n<\/div>",
+        "custom_liquid": "<h1>\nHello, I’m Alejandro Abeyta, UX\/UI Designer and\nFront-end Developer Based in San Francisco.\n<\/h1>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
