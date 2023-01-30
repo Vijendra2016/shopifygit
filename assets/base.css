@@ -3105,6 +3105,7 @@ background-color: #1a171e !important;
 .header-wrapper--border-bottom {
   border-bottom: 0.1rem solid rgba(var(--color-foreground),.08);
   background-color: #1a171e!important;
+  
 }
 
 
