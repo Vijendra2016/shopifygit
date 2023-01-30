@@ -9,48 +9,6 @@
         "padding_bottom": 52
       }
     },
-    "bf57e365-e59f-4d2b-bdf1-fe4ba6674d1a": {
-      "type": "rich-text",
-      "blocks": {
-        "template--16013879410854__bf57e365-e59f-4d2b-bdf1-fe4ba6674d1a-16747967610a473f40-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Canvas is a design and development studio. We build strategy-focused and design-driven digital products and ecommerce experiences that produce outcomes.<\/p>",
-            "heading_size": "h1"
-          }
-        },
-        "template--16013879410854__bf57e365-e59f-4d2b-bdf1-fe4ba6674d1a-16747967610a473f40-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        },
-        "cef9971a-3513-4708-b420-8d9b16df58ad": {
-          "type": "text",
-          "settings": {
-            "text": "<p><a>Schedule time with me<\/a><\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--16013879410854__bf57e365-e59f-4d2b-bdf1-fe4ba6674d1a-16747967610a473f40-0",
-        "template--16013879410854__bf57e365-e59f-4d2b-bdf1-fe4ba6674d1a-16747967610a473f40-2",
-        "cef9971a-3513-4708-b420-8d9b16df58ad"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "90aa5009-0787-4078-b2c7-2dbcfd5c9c17": {
       "type": "custom-liquid",
       "settings": {
@@ -184,7 +142,6 @@
   },
   "order": [
     "28775354-f60f-4a64-ad0e-8fc24fa44a04",
-    "bf57e365-e59f-4d2b-bdf1-fe4ba6674d1a",
     "90aa5009-0787-4078-b2c7-2dbcfd5c9c17",
     "227e8ff8-8299-4d03-8e59-949dc0095c21",
     "b5bb8811-750c-4942-87fb-fc756fb7073e",
