@@ -78,11 +78,54 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "3d774cdd-6c65-4ea9-98e9-5dae53453b8e": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16015241478310__3d774cdd-6c65-4ea9-98e9-5dae53453b8e-1675062041639f1fda-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>NEED SOME HELP?<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--16015241478310__3d774cdd-6c65-4ea9-98e9-5dae53453b8e-1675062041639f1fda-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Whether you need a freelance web developer for your website project, or you're getting into code and need some personal support and mentorship, it costs absolutely nothing to start the conversation.<\/p>"
+          }
+        },
+        "template--16015241478310__3d774cdd-6c65-4ea9-98e9-5dae53453b8e-1675062041639f1fda-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16015241478310__3d774cdd-6c65-4ea9-98e9-5dae53453b8e-1675062041639f1fda-0",
+        "template--16015241478310__3d774cdd-6c65-4ea9-98e9-5dae53453b8e-1675062041639f1fda-1",
+        "template--16015241478310__3d774cdd-6c65-4ea9-98e9-5dae53453b8e-1675062041639f1fda-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "28775354-f60f-4a64-ad0e-8fc24fa44a04",
     "90aa5009-0787-4078-b2c7-2dbcfd5c9c17",
-    "b5bb8811-750c-4942-87fb-fc756fb7073e"
+    "b5bb8811-750c-4942-87fb-fc756fb7073e",
+    "3d774cdd-6c65-4ea9-98e9-5dae53453b8e"
   ]
 }
