@@ -1,5 +1,49 @@
 {
   "sections": {
+    "3b6911ed-834d-4417-afee-81de36094702": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16015241478310__3b6911ed-834d-4417-afee-81de36094702-1675082486e06a42f5-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Hey there!",
+            "heading_size": "h0"
+          }
+        },
+        "template--16015241478310__3b6911ed-834d-4417-afee-81de36094702-1675082486e06a42f5-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Hello, I’m Vijendra, Offical shopify expert ,Front-end Developer working towrad headless technologies.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16015241478310__3b6911ed-834d-4417-afee-81de36094702-1675082486e06a42f5-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "About VJN",
+            "button_link": "shopify:\/\/pages\/about-vjn"
+          }
+        }
+      },
+      "block_order": [
+        "template--16015241478310__3b6911ed-834d-4417-afee-81de36094702-1675082486e06a42f5-0",
+        "template--16015241478310__3b6911ed-834d-4417-afee-81de36094702-1675082486e06a42f5-1",
+        "template--16015241478310__3b6911ed-834d-4417-afee-81de36094702-1675082486e06a42f5-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/avatar.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
     "28775354-f60f-4a64-ad0e-8fc24fa44a04": {
       "type": "custom-liquid",
       "settings": {
@@ -78,11 +122,55 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "3d774cdd-6c65-4ea9-98e9-5dae53453b8e": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16015241478310__3d774cdd-6c65-4ea9-98e9-5dae53453b8e-1675062041639f1fda-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>NEED SOME HELP?<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--16015241478310__3d774cdd-6c65-4ea9-98e9-5dae53453b8e-1675062041639f1fda-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Whether you need a freelance web developer for your website project, or you're getting into code and need some personal support and mentorship, it costs absolutely nothing to start the conversation.<\/p>"
+          }
+        },
+        "template--16015241478310__3d774cdd-6c65-4ea9-98e9-5dae53453b8e-1675062041639f1fda-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Discuss Your Project",
+            "button_link": "shopify:\/\/pages\/hire-me",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16015241478310__3d774cdd-6c65-4ea9-98e9-5dae53453b8e-1675062041639f1fda-0",
+        "template--16015241478310__3d774cdd-6c65-4ea9-98e9-5dae53453b8e-1675062041639f1fda-1",
+        "template--16015241478310__3d774cdd-6c65-4ea9-98e9-5dae53453b8e-1675062041639f1fda-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
+    "3b6911ed-834d-4417-afee-81de36094702",
     "28775354-f60f-4a64-ad0e-8fc24fa44a04",
     "90aa5009-0787-4078-b2c7-2dbcfd5c9c17",
-    "b5bb8811-750c-4942-87fb-fc756fb7073e"
+    "b5bb8811-750c-4942-87fb-fc756fb7073e",
+    "3d774cdd-6c65-4ea9-98e9-5dae53453b8e"
   ]
 }
