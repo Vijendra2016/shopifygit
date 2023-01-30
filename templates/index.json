@@ -1,5 +1,49 @@
 {
   "sections": {
+    "3b6911ed-834d-4417-afee-81de36094702": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16015241478310__3b6911ed-834d-4417-afee-81de36094702-1675082486e06a42f5-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Hey there!",
+            "heading_size": "h0"
+          }
+        },
+        "template--16015241478310__3b6911ed-834d-4417-afee-81de36094702-1675082486e06a42f5-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Hello, I’m Vijendra, Offical shopify expert ,Front-end Developer working towrad headless technologies.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16015241478310__3b6911ed-834d-4417-afee-81de36094702-1675082486e06a42f5-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16015241478310__3b6911ed-834d-4417-afee-81de36094702-1675082486e06a42f5-0",
+        "template--16015241478310__3b6911ed-834d-4417-afee-81de36094702-1675082486e06a42f5-1",
+        "template--16015241478310__3b6911ed-834d-4417-afee-81de36094702-1675082486e06a42f5-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/avatar.jpg",
+        "height": "adapt",
+        "desktop_image_width": "large",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "center",
+        "content_layout": "overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "28775354-f60f-4a64-ad0e-8fc24fa44a04": {
       "type": "custom-liquid",
       "settings": {
@@ -123,6 +167,7 @@
     }
   },
   "order": [
+    "3b6911ed-834d-4417-afee-81de36094702",
     "28775354-f60f-4a64-ad0e-8fc24fa44a04",
     "90aa5009-0787-4078-b2c7-2dbcfd5c9c17",
     "b5bb8811-750c-4942-87fb-fc756fb7073e",
