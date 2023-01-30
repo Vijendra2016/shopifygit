@@ -136,6 +136,50 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "7ea8f710-13d1-4053-9627-3039826d7840": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16015241478310__7ea8f710-13d1-4053-9627-3039826d7840-167505186943f0066a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "template--16015241478310__7ea8f710-13d1-4053-9627-3039826d7840-167505186943f0066a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16015241478310__7ea8f710-13d1-4053-9627-3039826d7840-167505186943f0066a-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16015241478310__7ea8f710-13d1-4053-9627-3039826d7840-167505186943f0066a-0",
+        "template--16015241478310__7ea8f710-13d1-4053-9627-3039826d7840-167505186943f0066a-1",
+        "template--16015241478310__7ea8f710-13d1-4053-9627-3039826d7840-167505186943f0066a-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/slumberpod-protfolio.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -143,6 +187,7 @@
     "bf57e365-e59f-4d2b-bdf1-fe4ba6674d1a",
     "90aa5009-0787-4078-b2c7-2dbcfd5c9c17",
     "227e8ff8-8299-4d03-8e59-949dc0095c21",
-    "b5bb8811-750c-4942-87fb-fc756fb7073e"
+    "b5bb8811-750c-4942-87fb-fc756fb7073e",
+    "7ea8f710-13d1-4053-9627-3039826d7840"
   ]
 }
