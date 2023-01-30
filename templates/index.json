@@ -54,7 +54,7 @@
     "90aa5009-0787-4078-b2c7-2dbcfd5c9c17": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<h2 style=\"    text-align: center;\">A few of our favorites.<\/h2>\n\n<h2 class=\"SectionHeader__Heading SectionHeader__Heading--emphasize Heading u-h1\" size=\"4\">We are Shopify<p class=\"typewrite\" data-period=\"1000\" data-type=\"[&quot;Developers&quot;, &quot;Marketers&quot;, &quot;Designers&quot;]\"><span class=\"wrap\"><\/span><\/p><\/h2>",
+        "custom_liquid": "<!-- Calendly inline widget begin -->\n<div class=\"calendly-inline-widget\" data-url=\"https:\/\/calendly.com\/vsisodiyadesign\" style=\"min-width:320px;height:630px;\"><\/div>\n<script type=\"text\/javascript\" src=\"https:\/\/assets.calendly.com\/assets\/external\/widget.js\" async><\/script>\n<!-- Calendly inline widget end -->",
         "color_scheme": "background-2",
         "padding_top": 100,
         "padding_bottom": 100
