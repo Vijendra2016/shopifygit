@@ -7,51 +7,53 @@
         "padding_bottom": 28
       }
     },
-    "b7cc9745-1d70-4e80-90bb-e32de5c5921b": {
-      "type": "rich-text",
+    "d206afe2-d611-4e08-89e6-c34c642e3ecf": {
+      "type": "image-with-text",
       "blocks": {
-        "template--16015241740454__b7cc9745-1d70-4e80-90bb-e32de5c5921b-1675048950c3342704-0": {
+        "template--16015241740454__d206afe2-d611-4e08-89e6-c34c642e3ecf-1675173338c21a5a4b-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>SUCCESSFUL PROJECTS EQUAL HAPPY CLIENTS<br\/><\/p>",
-            "heading_size": "h1"
+            "heading": "Image with text",
+            "heading_size": "h0"
           }
         },
-        "template--16015241740454__b7cc9745-1d70-4e80-90bb-e32de5c5921b-1675048950c3342704-1": {
+        "template--16015241740454__d206afe2-d611-4e08-89e6-c34c642e3ecf-1675173338c21a5a4b-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
           }
         },
-        "template--16015241740454__b7cc9745-1d70-4e80-90bb-e32de5c5921b-1675048950c3342704-2": {
+        "template--16015241740454__d206afe2-d611-4e08-89e6-c34c642e3ecf-1675173338c21a5a4b-2": {
           "type": "button",
           "settings": {
             "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_link": ""
           }
         }
       },
       "block_order": [
-        "template--16015241740454__b7cc9745-1d70-4e80-90bb-e32de5c5921b-1675048950c3342704-0",
-        "template--16015241740454__b7cc9745-1d70-4e80-90bb-e32de5c5921b-1675048950c3342704-1",
-        "template--16015241740454__b7cc9745-1d70-4e80-90bb-e32de5c5921b-1675048950c3342704-2"
+        "template--16015241740454__d206afe2-d611-4e08-89e6-c34c642e3ecf-1675173338c21a5a4b-0",
+        "template--16015241740454__d206afe2-d611-4e08-89e6-c34c642e3ecf-1675173338c21a5a4b-1",
+        "template--16015241740454__d206afe2-d611-4e08-89e6-c34c642e3ecf-1675173338c21a5a4b-2"
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "image": "shopify:\/\/shop_images\/Farmninedesktopview_31d4d214-09ac-43a6-b47d-1e8d0f7eaacb.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
         "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
     "main",
-    "b7cc9745-1d70-4e80-90bb-e32de5c5921b"
+    "d206afe2-d611-4e08-89e6-c34c642e3ecf"
   ]
 }
