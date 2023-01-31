@@ -50,10 +50,59 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "107ea5f4-d61b-44eb-88c7-cbb333c40dbb": {
+      "type": "image-banner",
+      "blocks": {
+        "template--16015241740454__107ea5f4-d61b-44eb-88c7-cbb333c40dbb-16751733767aa107d6-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--16015241740454__107ea5f4-d61b-44eb-88c7-cbb333c40dbb-16751733767aa107d6-1": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--16015241740454__107ea5f4-d61b-44eb-88c7-cbb333c40dbb-16751733767aa107d6-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16015241740454__107ea5f4-d61b-44eb-88c7-cbb333c40dbb-16751733767aa107d6-0",
+        "template--16015241740454__107ea5f4-d61b-44eb-88c7-cbb333c40dbb-16751733767aa107d6-1",
+        "template--16015241740454__107ea5f4-d61b-44eb-88c7-cbb333c40dbb-16751733767aa107d6-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Farmninedesktopview_31d4d214-09ac-43a6-b47d-1e8d0f7eaacb.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
     "main",
-    "d206afe2-d611-4e08-89e6-c34c642e3ecf"
+    "d206afe2-d611-4e08-89e6-c34c642e3ecf",
+    "107ea5f4-d61b-44eb-88c7-cbb333c40dbb"
   ]
 }
