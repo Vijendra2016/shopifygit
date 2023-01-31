@@ -3021,3 +3021,9 @@ src: url("https://cdn.shopify.com/s/files/1/0430/4486/4166/files/neulis-alt-medi
 src: url("https://cdn.shopify.com/s/files/1/0430/4486/4166/files/neulis-alt-medium.woff?v=1675142069") format("woff");
 }
 
+
+h1, h2, h3, h4, h5, .h0, .h1, .h2, .h3, .h4, .h5
+{
+font-family: NeulisAlt-Medium !important;
+  
+}
