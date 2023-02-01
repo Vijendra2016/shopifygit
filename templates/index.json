@@ -32,7 +32,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Untitled_design_22.png",
-        "height": "small",
+        "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "middle",
@@ -40,8 +40,8 @@
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
         "mobile_content_alignment": "left",
-        "padding_top": 100,
-        "padding_bottom": 100
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "28775354-f60f-4a64-ad0e-8fc24fa44a04": {
