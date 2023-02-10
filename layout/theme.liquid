@@ -266,6 +266,7 @@
 
     <script>
       
+      
       window.shopUrl = '{{ request.origin }}';
       window.routes = {
         cart_add_url: '{{ routes.cart_add_url }}',
@@ -292,6 +293,7 @@
         pauseSlideshow: `{{ 'sections.slideshow.pause_slideshow' | t }}`,
         playSlideshow: `{{ 'sections.slideshow.play_slideshow' | t }}`,
       }
+
 
     </script>
 
@@ -334,13 +336,5 @@
       >
       </iframe>
     </div>
-
-    <script>
-      window.EMBED_SO_CONFIG = {
-        "id": "752b34c1-8558-4db7-8a4d-940e376cd44b",
-        "position": "right"
-      }
-    </script>
-    <script src="https://embed.so/js/embed.js"></script>
   </body>
 </html>
