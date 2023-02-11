@@ -60,14 +60,14 @@
         "image-with-text-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
+            "heading": "No Upfront Payment",
+            "heading_size": "h0"
           }
         },
         "image-with-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>\"You dont need to pay payment upfront pay after work done .this payment term only applicable for small tasks and customization.<\/p><p>Store design & Setup and theme customization i can send you quote. \"<\/p>",
             "text_style": "body"
           }
         }
