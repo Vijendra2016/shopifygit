@@ -53,124 +53,16 @@
         "padding_bottom": 52
       }
     },
-    "90aa5009-0787-4078-b2c7-2dbcfd5c9c17": {
-      "type": "custom-liquid",
+    "02bb22a5-2632-4955-a213-4aff0a0e12e8": {
+      "type": "judgeme_carousel_section",
       "settings": {
-        "custom_liquid": "<!-- Calendly inline widget begin -->\n<div class=\"calendly-inline-widget\" data-url=\"https:\/\/calendly.com\/vsisodiyadesign\" style=\"min-width:320px;height:630px;\"><\/div>\n<script type=\"text\/javascript\" src=\"https:\/\/assets.calendly.com\/assets\/external\/widget.js\" async><\/script>\n<!-- Calendly inline widget end -->",
-        "color_scheme": "background-2",
-        "padding_top": 100,
-        "padding_bottom": 100
-      }
-    },
-    "b5bb8811-750c-4942-87fb-fc756fb7073e": {
-      "type": "collapsible-content",
-      "blocks": {
-        "template--16015241478310__b5bb8811-750c-4942-87fb-fc756fb7073e-1674984372590e91fa-0": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Are you available for work now",
-            "icon": "apple",
-            "row_content": "<p>yes i always realy to work on to quality people and brand <\/p>",
-            "page": ""
-          }
-        },
-        "template--16015241478310__b5bb8811-750c-4942-87fb-fc756fb7073e-1674984372590e91fa-1": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "apple",
-            "row_content": "<p>why you working<\/p>",
-            "page": ""
-          }
-        },
-        "template--16015241478310__b5bb8811-750c-4942-87fb-fc756fb7073e-1674984372590e91fa-2": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "template--16015241478310__b5bb8811-750c-4942-87fb-fc756fb7073e-1674984372590e91fa-3": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--16015241478310__b5bb8811-750c-4942-87fb-fc756fb7073e-1674984372590e91fa-0",
-        "template--16015241478310__b5bb8811-750c-4942-87fb-fc756fb7073e-1674984372590e91fa-1",
-        "template--16015241478310__b5bb8811-750c-4942-87fb-fc756fb7073e-1674984372590e91fa-2",
-        "template--16015241478310__b5bb8811-750c-4942-87fb-fc756fb7073e-1674984372590e91fa-3"
-      ],
-      "settings": {
-        "caption": "Top business brand i work for them, really looking some who really work with some grand brand",
-        "heading": "Clients",
-        "heading_size": "h1",
-        "heading_alignment": "left",
-        "layout": "none",
-        "color_scheme": "background-1",
-        "container_color_scheme": "background-2",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "3d774cdd-6c65-4ea9-98e9-5dae53453b8e": {
-      "type": "rich-text",
-      "blocks": {
-        "template--16015241478310__3d774cdd-6c65-4ea9-98e9-5dae53453b8e-1675062041639f1fda-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>NEED SOME HELP?<\/p>",
-            "heading_size": "h1"
-          }
-        },
-        "template--16015241478310__3d774cdd-6c65-4ea9-98e9-5dae53453b8e-1675062041639f1fda-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Whether you need a freelance web developer for your website project, or you're getting into code and need some personal support and mentorship, it costs absolutely nothing to start the conversation.<\/p>"
-          }
-        },
-        "template--16015241478310__3d774cdd-6c65-4ea9-98e9-5dae53453b8e-1675062041639f1fda-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Discuss Your Project",
-            "button_link": "shopify:\/\/pages\/hire-me",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16015241478310__3d774cdd-6c65-4ea9-98e9-5dae53453b8e-1675062041639f1fda-0",
-        "template--16015241478310__3d774cdd-6c65-4ea9-98e9-5dae53453b8e-1675062041639f1fda-1",
-        "template--16015241478310__3d774cdd-6c65-4ea9-98e9-5dae53453b8e-1675062041639f1fda-2"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "maxwidth": 1080
       }
     }
   },
   "order": [
     "3b6911ed-834d-4417-afee-81de36094702",
     "28775354-f60f-4a64-ad0e-8fc24fa44a04",
-    "90aa5009-0787-4078-b2c7-2dbcfd5c9c17",
-    "b5bb8811-750c-4942-87fb-fc756fb7073e",
-    "3d774cdd-6c65-4ea9-98e9-5dae53453b8e"
+    "02bb22a5-2632-4955-a213-4aff0a0e12e8"
   ]
 }
