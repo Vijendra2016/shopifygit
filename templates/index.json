@@ -53,16 +53,58 @@
         "padding_bottom": 52
       }
     },
-    "02bb22a5-2632-4955-a213-4aff0a0e12e8": {
-      "type": "judgeme_carousel_section",
+    "fd81e6a4-6dfb-4973-ac4d-68e354b998c2": {
+      "type": "image-banner",
+      "blocks": {
+        "template--16015241478310__fd81e6a4-6dfb-4973-ac4d-68e354b998c2-1676105517b12ab4cd-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--16015241478310__fd81e6a4-6dfb-4973-ac4d-68e354b998c2-1676105517b12ab4cd-1": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--16015241478310__fd81e6a4-6dfb-4973-ac4d-68e354b998c2-1676105517b12ab4cd-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16015241478310__fd81e6a4-6dfb-4973-ac4d-68e354b998c2-1676105517b12ab4cd-0",
+        "template--16015241478310__fd81e6a4-6dfb-4973-ac4d-68e354b998c2-1676105517b12ab4cd-1",
+        "template--16015241478310__fd81e6a4-6dfb-4973-ac4d-68e354b998c2-1676105517b12ab4cd-2"
+      ],
       "settings": {
-        "maxwidth": 1080
+        "image": "shopify:\/\/shop_images\/gift-card-envelopes.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     }
   },
   "order": [
     "3b6911ed-834d-4417-afee-81de36094702",
     "28775354-f60f-4a64-ad0e-8fc24fa44a04",
-    "02bb22a5-2632-4955-a213-4aff0a0e12e8"
+    "fd81e6a4-6dfb-4973-ac4d-68e354b998c2"
   ]
 }
