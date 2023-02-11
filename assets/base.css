@@ -3063,10 +3063,12 @@ background-color: #2b403a !important;
 
 .footer-block__details-content .list-menu__item--link, .copyright__content a {
    color: #f8f6eb !important;
+  font-size: 10px !important;
 }
 .footer-block__details-content>p, .footer-block__details-content>li
 {
   color: #f8f6eb !important;
+  font-size: 10px !important;
 }
 .footer-block__heading {
    color:#f8f6eb !important;
