@@ -150,7 +150,7 @@
           "settings": {
             "heading": "Collapsible row",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>Ghost kitchens, also known as dark kitchens or virtual kitchens, are commercial kitchens built for food delivery. They’re located within the delivery radius of a high volume of online customers, rather than high foot traffic areas. With ghost kitchens, there’s no physical storefront or dining area, so you only need a few back-of-house staff members to fulfill online orders.<\/p>",
             "page": ""
           }
         },
@@ -189,15 +189,14 @@
         "template--16015241609382__e202e251-13ff-4029-875d-8850a3bf9c09-1676109473f8e71eb2-3"
       ],
       "settings": {
-        "caption": "",
-        "heading": "Frequent Aske Questions",
+        "caption": "FAQ",
+        "heading": "Questions?  here to help.",
         "heading_size": "h0",
         "heading_alignment": "center",
         "layout": "none",
         "color_scheme": "background-1",
         "container_color_scheme": "background-2",
         "open_first_collapsible_row": true,
-        "image": "shopify:\/\/shop_images\/gift-card-envelopes.jpg",
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
         "padding_top": 36,
