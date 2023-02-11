@@ -3098,7 +3098,7 @@ h2::after,  {
 }
 
 h2::after { 
-  content: "-----------------";
+  content: "-";
     width: 25px;
     height: 1px;
     margin: 5px 0px 0px 5px;
