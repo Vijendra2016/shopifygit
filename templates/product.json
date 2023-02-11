@@ -48,10 +48,10 @@
     "890452c5-60cc-4759-a837-6c21cbeb42a9": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<h1>Task Description<\/h1>\n<p>{{product.description}}<\/p>",
+        "custom_liquid": "<h1 style=\"text-align: center;\n    color: #f8f6eb;\">Task Description<\/h1>\n<p style=\"text-align:center;\n    color: #f8f6eb;\">{{product.description}}<\/p>",
         "color_scheme": "background-2",
-        "padding_top": 80,
-        "padding_bottom": 80
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     },
     "image-with-text": {
