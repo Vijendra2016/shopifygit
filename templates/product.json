@@ -114,27 +114,27 @@
         "template--16015241609382__e202e251-13ff-4029-875d-8850a3bf9c09-1676109473f8e71eb2-0": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "What is a ghost kitchen?",
+            "heading": "What i need to do.",
             "icon": "question_mark",
-            "row_content": "<p>Ghost kitchens, also known as dark kitchens or virtual kitchens, are commercial kitchens built for food delivery. They’re located within the delivery radius of a high volume of online customers, rather than high foot traffic areas. With ghost kitchens, there’s no physical storefront or dining area, so you only need a few back-of-house staff members to fulfill online orders.<\/p>",
+            "row_content": "<p>You just need to submit your task request . we will send you store access request.<\/p>",
             "page": ""
           }
         },
         "template--16015241609382__e202e251-13ff-4029-875d-8850a3bf9c09-1676109473f8e71eb2-1": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Where you live",
+            "heading": "How soon you complete task",
             "icon": "question_mark",
-            "row_content": "<p>I am live in udaipur rajsthan India. Its a beautiful lake city and rich heritage architacture .<\/p><p><\/p>",
+            "row_content": "<p>I mension the turnaround time on each task. for small task its not take 24. Due to hight request we keep working to complete overy timeframe.<\/p>",
             "page": ""
           }
         },
         "template--16015241609382__e202e251-13ff-4029-875d-8850a3bf9c09-1676109473f8e71eb2-2": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "I am concern about store data security",
+            "icon": "question_mark",
+            "row_content": "<p>No worry, we just request only theme  , product and app area request all your crucial date will be safe.<\/p>",
             "page": ""
           }
         },
@@ -155,8 +155,8 @@
         "template--16015241609382__e202e251-13ff-4029-875d-8850a3bf9c09-1676109473f8e71eb2-3"
       ],
       "settings": {
-        "caption": "FAQ",
-        "heading": "Questions?  here to help.",
+        "caption": "What Need to Know",
+        "heading": "Frequently Asked Questions",
         "heading_size": "h0",
         "heading_alignment": "center",
         "layout": "none",
