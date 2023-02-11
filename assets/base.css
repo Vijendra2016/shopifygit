@@ -3060,6 +3060,10 @@ background-color: #2b403a !important;
     color: #f8f6eb;
 }
 
+
+.footer-block__details-content .list-menu__item--link, .copyright__content a {
+   color: #f8f6eb;
+}
 .footer-block__heading {
    color:#f8f6eb !important;
 }
