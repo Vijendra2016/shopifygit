@@ -3095,7 +3095,7 @@ h2::after {
         display: block;
         width: 130px;
         height: 5px;
-        background: #191970;
+        background: black;
         right: 0;
         top: 50%;
         position: absolute;
