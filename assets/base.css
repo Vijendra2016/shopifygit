@@ -3028,4 +3028,12 @@ details-disclosure > details {
   height: 100%;
   background-color: #1a171e!important;
   color: #fff;
+
 }
+
+@font-face {
+font-family: "Roobert-Regular";
+src: url("Roobert-Regular.woff2") format("woff2"),
+url("Roobert-Regular.woff") format("woff");
+}
+
