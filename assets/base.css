@@ -3043,3 +3043,8 @@ url("Roobert-Regular.woff") format("woff");
 {
 background-color: #2b403a !important;
 }
+
+.image-with-text:not(.image-with-text--overlap) .image-with-text__text-item>* {
+    box-shadow: none;
+    background-color: #2b403a !important;
+}
