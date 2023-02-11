@@ -3092,8 +3092,10 @@ background-color: #2b403a !important;
 
 h2::after { 
   content: "";
-    width: 25px;
-    height: 1px;
-    margin: 5px 0px 0px 5px;
+        display: block;
+        width: 150px;
+        height: 5px;
+        background: #CD5C5C;
+        left: 85px;
    
 }
