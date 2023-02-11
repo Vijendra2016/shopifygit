@@ -581,6 +581,7 @@
               </noscript>
               {% render 'product-enquiry' %}
             {%- when 'buy_buttons' -%}
+              {% render 'product-enquiry' %}
               <div {{ block.shopify_attributes }}>
                 <product-form class="product-form">
                   <div class="product-form__error-message-wrapper" role="alert" hidden>
