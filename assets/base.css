@@ -3082,3 +3082,8 @@ background-color: #2b403a !important;
     letter-spacing: 0.05em;
     text-transform: uppercase;
 }
+
+.product__title>* {
+    margin: 0;
+    font-size: 18px !important;
+}
