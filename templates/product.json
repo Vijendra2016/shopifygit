@@ -20,10 +20,10 @@
           "settings": {
           }
         },
-        "buy_buttons": {
-          "type": "buy_buttons",
+        "efb76452-3a92-452b-9a3c-ddd3471c814b": {
+          "type": "custom_liquid",
           "settings": {
-            "show_dynamic_checkout": true
+            "custom_liquid": "{% render 'product-enquiry' %}"
           }
         },
         "description": {
@@ -69,7 +69,7 @@
         "vendor",
         "title",
         "price",
-        "buy_buttons",
+        "efb76452-3a92-452b-9a3c-ddd3471c814b",
         "description",
         "collapsible-row-0",
         "collapsible-row-1",
