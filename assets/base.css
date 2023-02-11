@@ -3048,3 +3048,9 @@ background-color: #2b403a !important;
     box-shadow: none;
     background-color: #2b403a !important;
 }
+
+.image-with-text__heading {
+    word-break: break-word;
+    margin-bottom: 0;
+    color: #f8f6eb;
+}
