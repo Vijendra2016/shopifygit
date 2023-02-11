@@ -68,11 +68,67 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "08b5294c-f5a3-437d-8347-e85ae3e3fb37": {
+      "type": "quotes",
+      "blocks": {
+        "template--16015241478310__08b5294c-f5a3-437d-8347-e85ae3e3fb37-167611075741c8d184-0": {
+          "type": "quote",
+          "settings": {
+            "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "author": "Author’s name",
+            "link": ""
+          }
+        },
+        "template--16015241478310__08b5294c-f5a3-437d-8347-e85ae3e3fb37-167611075741c8d184-1": {
+          "type": "quote",
+          "settings": {
+            "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "author": "Author’s name",
+            "link": ""
+          }
+        },
+        "template--16015241478310__08b5294c-f5a3-437d-8347-e85ae3e3fb37-167611075741c8d184-2": {
+          "type": "quote",
+          "settings": {
+            "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "author": "Author’s name",
+            "link": ""
+          }
+        },
+        "e89509de-8082-4d43-a56f-7603c4769d3f": {
+          "type": "quote",
+          "settings": {
+            "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "author": "Author’s name",
+            "link": ""
+          }
+        },
+        "8de32ebb-3a28-40fa-aa05-b7e46349963e": {
+          "type": "quote",
+          "settings": {
+            "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "author": "Author’s name",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16015241478310__08b5294c-f5a3-437d-8347-e85ae3e3fb37-167611075741c8d184-0",
+        "template--16015241478310__08b5294c-f5a3-437d-8347-e85ae3e3fb37-167611075741c8d184-1",
+        "template--16015241478310__08b5294c-f5a3-437d-8347-e85ae3e3fb37-167611075741c8d184-2",
+        "e89509de-8082-4d43-a56f-7603c4769d3f",
+        "8de32ebb-3a28-40fa-aa05-b7e46349963e"
+      ],
+      "settings": {
+        "title": "Testimonials"
+      }
     }
   },
   "order": [
     "3b6911ed-834d-4417-afee-81de36094702",
     "28775354-f60f-4a64-ad0e-8fc24fa44a04",
-    "fd81e6a4-6dfb-4973-ac4d-68e354b998c2"
+    "fd81e6a4-6dfb-4973-ac4d-68e354b998c2",
+    "08b5294c-f5a3-437d-8347-e85ae3e3fb37"
   ]
 }
