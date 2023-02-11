@@ -55,38 +55,6 @@
     },
     "fd81e6a4-6dfb-4973-ac4d-68e354b998c2": {
       "type": "image-banner",
-      "blocks": {
-        "template--16015241478310__fd81e6a4-6dfb-4973-ac4d-68e354b998c2-1676105517b12ab4cd-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
-          }
-        },
-        "template--16015241478310__fd81e6a4-6dfb-4973-ac4d-68e354b998c2-1676105517b12ab4cd-1": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "template--16015241478310__fd81e6a4-6dfb-4973-ac4d-68e354b998c2-1676105517b12ab4cd-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16015241478310__fd81e6a4-6dfb-4973-ac4d-68e354b998c2-1676105517b12ab4cd-0",
-        "template--16015241478310__fd81e6a4-6dfb-4973-ac4d-68e354b998c2-1676105517b12ab4cd-1",
-        "template--16015241478310__fd81e6a4-6dfb-4973-ac4d-68e354b998c2-1676105517b12ab4cd-2"
-      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/gift-card-envelopes.jpg",
         "image_overlay_opacity": 0,
