@@ -3037,3 +3037,7 @@ src: url("Roobert-Regular.woff2") format("woff2"),
 url("Roobert-Regular.woff") format("woff");
 }
 
+h1, h2, h3, h4, h5, .h0, .h1, .h2, .h3, .h4, .h5 {
+    font-family: "Roobert-Regular" !important;
+}
+
