@@ -3,6 +3,8 @@
   class="page-width section-{{ section.id }}-padding"
   data-section="{{ section.id }}"
 >
+              {% render 'product-enquiry' %}
+
   {{ 'section-main-product.css' | asset_url | stylesheet_tag }}
   {{ 'component-accordion.css' | asset_url | stylesheet_tag }}
   {{ 'component-price.css' | asset_url | stylesheet_tag }}
@@ -581,7 +583,6 @@
               </noscript>
               {% render 'product-enquiry' %}
             {%- when 'buy_buttons' -%}
-              {% render 'product-enquiry' %}
               <div {{ block.shopify_attributes }}>
                 <product-form class="product-form">
                   <div class="product-form__error-message-wrapper" role="alert" hidden>
