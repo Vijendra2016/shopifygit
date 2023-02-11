@@ -20,17 +20,6 @@
           "settings": {
           }
         },
-        "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button"
-          }
-        },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -45,18 +34,18 @@
         "collapsible-row-0": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Materials",
+            "heading": "Delivery Time",
             "icon": "leather",
-            "content": "",
+            "content": "<p>Once i get request from you i will start working on the task and update you asap.<\/p><p><\/p>",
             "page": ""
           }
         },
         "collapsible-row-1": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Shipping & Returns",
-            "icon": "truck",
-            "content": "",
+            "heading": "How you take payment",
+            "icon": "dryer",
+            "content": "<p>I use paypal for invoice.I believ it one of best payment provide due it give buyers protection as well.<\/p>",
             "page": ""
           }
         },
@@ -65,15 +54,6 @@
           "settings": {
             "heading": "Dimensions",
             "icon": "ruler",
-            "content": "",
-            "page": ""
-          }
-        },
-        "collapsible-row-3": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Care Instructions",
-            "icon": "heart",
             "content": "",
             "page": ""
           }
@@ -89,14 +69,11 @@
         "vendor",
         "title",
         "price",
-        "variant_picker",
-        "quantity_selector",
         "buy_buttons",
         "description",
         "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-2",
-        "collapsible-row-3",
         "share"
       ],
       "settings": {
