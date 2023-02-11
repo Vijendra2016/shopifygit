@@ -25,56 +25,13 @@
           "settings": {
             "custom_liquid": "{% render 'product-enquiry' %}"
           }
-        },
-        "description": {
-          "type": "description",
-          "settings": {
-          }
-        },
-        "collapsible-row-0": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Delivery Time",
-            "icon": "leather",
-            "content": "<p>Once i get request from you i will start working on the task and update you asap.<\/p><p><\/p>",
-            "page": ""
-          }
-        },
-        "collapsible-row-1": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "How you take payment",
-            "icon": "dryer",
-            "content": "<p>I use paypal for invoice.I believ it one of best payment provide due it give buyers protection as well.<\/p>",
-            "page": ""
-          }
-        },
-        "collapsible-row-2": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Dimensions",
-            "icon": "ruler",
-            "content": "",
-            "page": ""
-          }
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
         }
       },
       "block_order": [
         "vendor",
         "title",
         "price",
-        "efb76452-3a92-452b-9a3c-ddd3471c814b",
-        "description",
-        "collapsible-row-0",
-        "collapsible-row-1",
-        "collapsible-row-2",
-        "share"
+        "efb76452-3a92-452b-9a3c-ddd3471c814b"
       ],
       "settings": {
         "enable_sticky_info": false,
