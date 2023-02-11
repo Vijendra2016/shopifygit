@@ -3054,3 +3054,8 @@ background-color: #2b403a !important;
     margin-bottom: 0;
     color: #f8f6eb;
 }
+
+.image-with-text__content>*+* {
+    margin-top: 2rem;
+    color: #f8f6eb;
+}
