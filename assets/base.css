@@ -3088,19 +3088,12 @@ background-color: #2b403a !important;
     font-size: 18px !important;
 }
 
-h2::after,  {
-    position: absolute;
-    content: "";
-    width: 25px;
-    height: 1px;
-    margin: 5px 0px 0px 5px;
-    background-color: currentcolor;
-}
+
 
 h2::after { 
   content: "-";
     width: 25px;
     height: 1px;
     margin: 5px 0px 0px 5px;
-    background-color: currentcolor;
+   
 }
