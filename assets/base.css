@@ -3096,3 +3096,7 @@ h2::after,  {
     margin: 5px 0px 0px 5px;
     background-color: currentcolor;
 }
+
+h2::after { 
+  content: " - Remember this";
+}
