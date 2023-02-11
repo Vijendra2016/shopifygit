@@ -175,30 +175,30 @@
               "menu": "footer"
             }
           },
-          "footer-2": {
-            "type": "text",
-            "settings": {
-              "heading": "Shopify Expert",
-              "subtext": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p>"
-            }
-          },
           "28cb2b6b-8aea-4d04-a5be-a706cb274ed8": {
             "type": "link_list",
             "settings": {
               "heading": "Quick links",
               "menu": "footer"
             }
+          },
+          "footer-2": {
+            "type": "text",
+            "settings": {
+              "heading": "Shopify Expert",
+              "subtext": "<p>As a contract Shopify developer, Shopify expert & partner and front-end consultant, I can help build your next business website or ecommerce website<\/p>"
+            }
           }
         },
         "block_order": [
           "footer-0",
           "footer-1",
-          "footer-2",
-          "28cb2b6b-8aea-4d04-a5be-a706cb274ed8"
+          "28cb2b6b-8aea-4d04-a5be-a706cb274ed8",
+          "footer-2"
         ],
         "settings": {
           "color_scheme": "background-2",
-          "newsletter_enable": true,
+          "newsletter_enable": false,
           "newsletter_heading": "Subscribe to our emails",
           "enable_follow_on_shop": false,
           "show_social": true,
