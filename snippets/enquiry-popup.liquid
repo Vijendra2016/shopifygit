@@ -1,0 +1,125 @@
+<div class="popup-overlay">
+
+<div class="popup">
+
+      <h1 class="h6" style="text-align: center">Enquire</h1>
+      <br>
+
+      <p style="text-align: center;"> If you would like any further information about {{ product.title }}, please get in touch with us and we will be happy to help</p>
+     
+      
+      
+      {% form 'contact' %}
+  {{ form.errors | default_errors }}
+
+  <div class="first-name" >
+    <label for="first-name" style="font-weight: 500;">Full Name</label>
+    <input type="text" name="contact[Full Name" id="first-name" / style="width: 100%;border: 0.5px solid #00000042;height: 31px;  margin-bottom: 10px; padding: 5px;">
+  </div>
+
+
+         <div class="email" >
+    <label for="email" style="font-weight: 500;">Email address </label>
+    <input type="email" name="contact[email]" id="email" / style="width: 100%;border: 0.5px solid #00000042;height: 31px;  margin-bottom: 10px; padding: 5px;">
+  </div>
+
+  <div class="phone">
+    <label for="phone" style="font-weight: 500;">Mobile Number (Optional)</label>
+    <input type="tel" name="contact[phone]" id="phone" / style="width: 100%;border: 0.5px solid #00000042;height: 31px;  margin-bottom: 10px; padding: 5px;">
+  </div>
+
+  
+
+  <div class="Product " style="display:none">
+    <label for="Product ">Product </label>
+    <input type="text" name="contact[{{ product.title }}]" id="order-number" / style="width: 100%;border: 0.5px solid #00000042;height: 31px; padding: 5px;">
+  </div>
+
+  <div class="message" >
+    <label for="message" style="font-weight: 500;">Message</label>
+    <textarea name="contact[body]" id="message" style="width: 100%;border: 0.5px solid #00000042;height: 100px; padding: 5px;"></textarea>
+  </div>
+        <br>
+
+  <div class="submit" class="button button--xl button--outline" style="--button-background: 0 0 0 / var(--button-background-opacity, 1);--button-text-color: 0 0 0;--button-outline-color: 0 0 0;" is="custom-button">
+    <input type="submit" value="Enquire" / class="button button--xl button--outline">
+  </div>
+{% endform %}
+
+<span class="popup-close"></span>
+</div>
+
+  
+</div>
+
+<style>
+  
+   
+  
+ .popup {
+background-color: #fff;
+border-radius: 0px;
+padding: 16px 20px;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 3px;
+position: absolute;
+z-index: 25;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+max-width: 400px !important;
+display: none;
+width: 95%;
+   overflow-x: hidden;
+}
+@media only screen and (max-width: 767px) {
+.popup {
+padding: 35px 15px;
+}
+}
+.popup-close:after {
+width: 30px;
+content: '╳';
+position: fixed;
+right: 10px;
+top: 10px;
+font-size: 20px;
+line-height: 30px;
+cursor: pointer;
+}
+.popup-btn {
+cursor: pointer;
+}
+.popup-overlay {
+position: fixed;
+height: 100%;
+width: 100% !important;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+background: rgba(0, 0, 0, 0.6);
+display: none;
+z-index: 100;
+  overflow-x: hidden;
+}
+
+</style>
+
+<script>document.querySelector(".popup-btn").addEventListener('click', function (e) {
+e.stopPropagation();
+document.querySelector(".popup").style.display = 'block';
+}, false);
+document.querySelector(".popup-btn").addEventListener('click', function () {
+document.querySelector(".popup-overlay").style.display = 'block';
+}, false);
+document.querySelector(".popup-close").addEventListener('click', function () {
+document.querySelector(".popup").style.display = 'none';
+document.querySelector(".popup-overlay").style.display = 'none';
+}, false);
+document.querySelector("body").addEventListener('click', function () {
+document.querySelector(".popup").style.display = 'none';
+document.querySelector(".popup-overlay").style.display = 'none';
+}, false);
+document.querySelector(".popup").addEventListener('click', function (e) {
+e.stopPropagation();
+}, false);</script>
