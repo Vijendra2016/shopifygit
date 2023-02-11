@@ -3059,3 +3059,7 @@ background-color: #2b403a !important;
     margin-top: 2rem;
     color: #f8f6eb;
 }
+
+.footer-block__heading {
+   color:#f8f6eb !important;
+}
