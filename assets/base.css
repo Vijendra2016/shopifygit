@@ -3098,5 +3098,5 @@ h2::after,  {
 }
 
 h2::after { 
-  content: " - Remember this";
+  content: " - Remember this"!important;
 }
