@@ -13,7 +13,7 @@
           "type": "title",
           "settings": {
             "blog_show_date": true,
-            "blog_show_author": false
+            "blog_show_author": true
           }
         },
         "share": {
@@ -36,9 +36,49 @@
       ],
       "settings": {
       }
+    },
+    "831737cc-414b-428a-97a2-0af8d340c674": {
+      "type": "techstack",
+      "blocks": {
+        "template--16015241216166__831737cc-414b-428a-97a2-0af8d340c674-16762832064d9c44db-0": {
+          "type": "logo_image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "template--16015241216166__831737cc-414b-428a-97a2-0af8d340c674-16762832064d9c44db-1": {
+          "type": "logo_image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "template--16015241216166__831737cc-414b-428a-97a2-0af8d340c674-16762832064d9c44db-2": {
+          "type": "logo_image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "template--16015241216166__831737cc-414b-428a-97a2-0af8d340c674-16762832064d9c44db-3": {
+          "type": "logo_image",
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16015241216166__831737cc-414b-428a-97a2-0af8d340c674-16762832064d9c44db-0",
+        "template--16015241216166__831737cc-414b-428a-97a2-0af8d340c674-16762832064d9c44db-1",
+        "template--16015241216166__831737cc-414b-428a-97a2-0af8d340c674-16762832064d9c44db-2",
+        "template--16015241216166__831737cc-414b-428a-97a2-0af8d340c674-16762832064d9c44db-3"
+      ],
+      "settings": {
+        "title": "Logo list",
+        "logo_width": "150px"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "831737cc-414b-428a-97a2-0af8d340c674"
   ]
 }
