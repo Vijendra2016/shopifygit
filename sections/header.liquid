@@ -399,9 +399,7 @@
     {%- if section.settings.menu != blank -%}
       {%- if section.settings.menu_type_desktop == 'dropdown' -%}
         <nav class="header__inline-menu">
-         <li><a href="/blogs/news" class="header__menu-item list-menu__item link link--text focus-inset">
-                    <span>Lets Connect</span><img src="//cdn.shopify.com/s/files/1/0038/3084/1457/files/Mask_Group_50x.png?v=1619095082">
-                  </a></li>
+        
           <ul class="list-menu list-menu--inline" role="list">
             {%- for link in section.settings.menu.links -%}
               <li>
@@ -453,6 +451,9 @@
       {%- else -%}
         <nav class="header__inline-menu">
           <ul class="list-menu list-menu--inline" role="list">
+         <li><a href="/blogs/news" class="header__menu-item list-menu__item link link--text focus-inset">
+                    <span>Lets Connect</span><img src="//cdn.shopify.com/s/files/1/0038/3084/1457/files/Mask_Group_50x.png?v=1619095082">
+                  </a></li>
             {%- for link in section.settings.menu.links -%}
               <li>
                 {%- if link.links != blank -%}
