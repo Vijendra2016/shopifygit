@@ -48,7 +48,7 @@
       "type": "custom-liquid",
       "settings": {
         "custom_liquid": "<div class=\"rich-text__wrapper rich-text__wrapper--center page-width\">\n      <div class=\"rich-text__blocks center\">\n<h1>\nAs a contract Shopify developer, Shopify expert & partner and front-end consultant, I can help build your next business website or ecommerce website\n\n\n<\/h1>\n              <\/div><\/div>\n    <\/div>",
-        "color_scheme": "accent-2",
+        "color_scheme": "background-1",
         "padding_top": 100,
         "padding_bottom": 100
       }

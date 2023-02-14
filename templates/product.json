@@ -48,7 +48,7 @@
     "890452c5-60cc-4759-a837-6c21cbeb42a9": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<h1 style=\"text-align: center;\n    color: #f8f6eb;\">Task Description<\/h1>\n<div class=\"desc\" style=\"text-align:center;\n    color: #f8f6eb;\">{{product.description}}<\/div>",
+        "custom_liquid": "<div class=\"rich-text__wrapper rich-text__wrapper--center page-width\">\n      <div class=\"rich-text__blocks center\">\n<h1 style=\"text-align: center;\n    color: #f8f6eb;\">Task Description<\/h1>\n<div class=\"desc\" style=\"text-align:center;\n    color: #f8f6eb;\">{{product.description}}<\/div>\n<\/div>\n<\/div>",
         "color_scheme": "background-2",
         "padding_top": 100,
         "padding_bottom": 100
