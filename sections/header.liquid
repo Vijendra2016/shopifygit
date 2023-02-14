@@ -204,6 +204,9 @@
                   </a></li>
                 </nav>
                 <div class="menu-drawer__utility-links">
+      <li><a href="/blogs/news" class="header__menu-item list-menu__item link link--text focus-inset">
+                    <span>Lets Connect</span><img src="//cdn.shopify.com/s/files/1/0038/3084/1457/files/Mask_Group_50x.png?v=1619095082">
+                  </a></li>
                   {%- if shop.customer_accounts_enabled -%}
                     <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}" class="menu-drawer__account link focus-inset h5">
                       {% render 'icon-account' %}
