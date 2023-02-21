@@ -334,7 +334,7 @@
 
 {% assign days_since_publication = 'now' | date: '%s' | minus: product.created_at | divided_by: 86400 %}
 {% if days_since_publication <= 7 %}
-  <span class="new-label">New!</span>
+  <h2 class="new-label">New!</h2>
 {% endif %}
 
               </div>
