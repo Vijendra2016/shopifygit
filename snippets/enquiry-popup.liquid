@@ -6,54 +6,17 @@
 
      
       
-      
-      {% form 'contact' %}
-  {{ form.errors | default_errors }}
-
-  <div class="first-name" >
-    <label for="first-name" style="font-weight: 500;">Full Name</label>
-    <input type="text" name="contact[Full Name" id="first-name" / style="width: 100%;    background-color: #f8f6eb;border: 0.5px solid #00000042;height: 31px;  margin-bottom: 10px; padding: 5px;">
-  </div>
-
-
-         <div class="email" >
-    <label for="email" style="font-weight: 500;">Email address </label>
-    <input type="email" name="contact[email]" id="email" / style="width: 100%;    background-color: #f8f6eb;border: 0.5px solid #00000042;height: 31px;  margin-bottom: 10px; padding: 5px;">
-  </div>
-
-  <div class="phone">
-    <label for="phone" style="font-weight: 500;">Mobile Number (Optional)</label>
-    <input type="tel" name="contact[phone]" id="phone" / style="width: 100%;     background-color: #f8f6eb;border: 0.5px solid #00000042;height: 31px;  margin-bottom: 10px; padding: 5px;">
-  </div>
-
-  
-  <div class="phone">
-    <label for="phone" style="font-weight: 500;">Your Shopify URL *</label>
-    <input type="tel" name="contact[Client Website ]" placeholder="mystore.myshopify.com" id="phone" / style="width: 100%;     background-color: #f8f6eb;border: 0.5px solid #00000042;height: 31px;  margin-bottom: 10px; padding: 5px;">
-  </div>
-
-  <div class="phone">
-    <label for="phone" style="font-weight: 500;">Storefront Password (not admin password) *</label>
-    <input type="tel" name="contact[Client Website ]" placeholder="Storefront Password if applicable" id="phone" / style="width: 100%;     background-color: #f8f6eb;border: 0.5px solid #00000042;height: 31px;  margin-bottom: 10px; padding: 5px;">
-  </div>
-
-
-  <div class="Product " style="display:none">
-    <label for="Product ">Product </label>
-    <input type="text" name="contact[ Task Name {{ product.title }}]" id="order-number" / style="width: 100%; background-color: #f8f6eb;border: 0.5px solid #00000042;height: 31px; padding: 5px;">
-  </div>
-
-  <div class="message" >
-    <label for="message" style="font-weight: 500;">Additional information</label>
-    <textarea name="contact[body]" id="message"  placeholder ="Please tell me of any other important details i might need to know before proceeding..."style="width: 100%;border: 0.5px solid #00000042;height: 100px; padding: 5px;background-color: #f8f6eb;"></textarea>
-  </div>
-        <br>
-
-  <div class="submit" class="button button--xl button--outline" style="--button-background: 0 0 0 / var(--button-background-opacity, 1);--button-text-color: 0 0 0;--button-outline-color: 0 0 0;" is="custom-button">
-    <input type="submit" value="Submit The task" / class="button button--xl button--outline" style="background-color: #2b403a;
-    color: white;">
-  </div>
-{% endform %}
+      <form method="post" action="/contact" id="contact-form">
+  <input type="hidden" name="form_type" value="contact">
+  <input type="hidden" name="utf8" value="✓">
+  <label for="contact-name">Name</label>
+  <input type="text" id="contact-name" name="contact[name]">
+  <label for="contact-email">Email</label>
+  <input type="email" id="contact-email" name="contact[email]">
+  <label for="contact-message">Message</label>
+  <textarea id="contact-message" name="contact[message]"></textarea>
+  <button type="submit" id="contact-submit">Submit</button>
+</form>
 
 <span class="popup-close"></span>
 </div>
@@ -132,3 +95,25 @@ document.querySelector(".popup-overlay").style.display = 'none';
 document.querySelector(".popup").addEventListener('click', function (e) {
 e.stopPropagation();
 }, false);</script>
+
+<script>
+  document.getElementById('contact-form').addEventListener('submit', function(e) {
+    e.preventDefault(); // prevent the form from submitting normally
+
+    // get the form data
+    var formData = new FormData(e.target);
+
+    // submit the form data via AJAX
+    fetch('/contact', {
+      method: 'POST',
+      body: formData
+    })
+    .then(function(response) {
+      // show the "Thank you" message on a pop-up
+      alert('Thank you for submitting your request! We will be in touch shortly.');
+    })
+    .catch(function(error) {
+      console.error('Error submitting form:', error);
+    });
+  });
+</script>
