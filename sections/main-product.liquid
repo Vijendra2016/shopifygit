@@ -331,6 +331,7 @@
                     {{ product.title | escape }}
                   </h2>
                 </a>
+            
 
 {% assign days_since_publication = 'now' | date: '%s' | minus: product.created_at | divided_by: 86400 %}
 {% if days_since_publication <= 7 %}
@@ -338,7 +339,10 @@
 {% endif %}
 
               </div>
-            
+            {% assign days_since_publication = 'now' | date: '%s' | minus: product.created_at | divided_by: 86400 %}
+{% if days_since_publication <= 7 %}
+  <span class="new-label">New!</span>
+{% endif %}
             {%- when 'price' -%}
               <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
                 {%- render 'price', product: product, use_variant: true, show_badges: true, price_class: 'price--large' -%}
