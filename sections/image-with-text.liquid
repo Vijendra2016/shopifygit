@@ -26,6 +26,8 @@
             loading: 'lazy',
             sizes: sizes,
             widths: '165, 360, 535, 750, 1070, 1500'
+                    }}                  {% unless lazy_load == false %}loading="lazy"{% endunless %}
+
           }}                  {% unless lazy_load == false %}loading="lazy"{% endunless %}
 
         {%- else -%}
